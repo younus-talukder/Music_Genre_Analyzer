@@ -7,3 +7,6 @@ pandas==2.1.0
 streamlit
 librosa==0.10.1
 audioread
+soundfile
+scipy
+ipython
