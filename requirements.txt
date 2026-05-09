@@ -8,3 +8,4 @@ librosa
 soundfile
 scipy
 audioread
+tensorflow
