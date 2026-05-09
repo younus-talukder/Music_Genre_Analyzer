@@ -1,2 +1,5 @@
-# Music_Genre_Analyzer
+MusicAI Studio
 GenreAI is an AI-powered music genre classification system that analyzes uploaded audio files and predicts their musical genre using deep learning techniques. The application processes audio signals, extracts important sound features, and provides fast and accurate genre predictions through an interactive web interface.
+
+
+Feel free to try it: https://huggingface.co/spaces/younus1234/try
