@@ -208,7 +208,9 @@ def load_and_preprocess_data(file_path, target_shape=(150,150)):
 
         chunk = audio_data[start:end]
 
-        mel = librosa.feature.melspectrogram(y=chunk, sr=sample_rate)
+        mel = librosa.power_to_db(mel)
+
+        mel = resize(np.expand_dims(mel, axis=-1), target_shape)
 
         mel = resize(np.expand_dims(mel, axis=-1), target_shape)
 
